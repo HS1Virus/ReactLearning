@@ -7,10 +7,10 @@ import React from 'react'
 /*const Greet = () => <h1>Hello Hemil</h1>*/
 
 const Greet = (props) =>{
-    console.log(props)
+    const {name} = props
 return (
 <div>
-<h1>Hello {props.name}</h1>
+<h1>Hello {name}</h1>
 </div>
 )
 } 
